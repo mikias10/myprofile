@@ -14,8 +14,9 @@ var NavbarComponent = (function () {
     }
     NavbarComponent = __decorate([
         core_1.Component({
+            moduleId: module.id,
             selector: 'navbar',
-            template: 'NAVBAR'
+            templateUrl: 'navbar.component.html'
         }), 
         __metadata('design:paramtypes', [])
     ], NavbarComponent);
