@@ -1,3 +1,30 @@
 .navbar {
   margin-bottom: 0;
 }
+
+/*.main {
+  float: left;
+}*/
+.jumbotron {
+  background: #fff;
+  /*width: 40%;*/
+}
+.view-container {
+  position: relative;
+  top: 100px;
+}
+
+.about {
+  position: relative;
+  top: 100px;
+}
+.experience-list > li {
+  position: relative;
+  top: 100px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.experience-list > li > p {
+  font-size: 12px;
+}

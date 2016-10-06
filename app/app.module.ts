@@ -6,6 +6,7 @@ import { NavbarComponent } from './components/navbar/navbar.component'
 import { JumbotronComponent } from './components/jumbotron/jumbotron.component'
 import { AboutComponent } from './components/pages/about.component'
 import { HomeComponent } from './components/pages/home.component'
+import { ExperienceComponent } from './components/pages/experience.component'
 import { routing } from './app.routing';
 
 @NgModule({
@@ -15,7 +16,8 @@ import { routing } from './app.routing';
           NavbarComponent,
           JumbotronComponent,
           AboutComponent,
-          HomeComponent
+          HomeComponent,
+          ExperienceComponent
       ],
   bootstrap: [ AppComponent ]
 })

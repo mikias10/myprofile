@@ -15,6 +15,7 @@ var navbar_component_1 = require('./components/navbar/navbar.component');
 var jumbotron_component_1 = require('./components/jumbotron/jumbotron.component');
 var about_component_1 = require('./components/pages/about.component');
 var home_component_1 = require('./components/pages/home.component');
+var experience_component_1 = require('./components/pages/experience.component');
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
     function AppModule() {
@@ -27,7 +28,8 @@ var AppModule = (function () {
                 navbar_component_1.NavbarComponent,
                 jumbotron_component_1.JumbotronComponent,
                 about_component_1.AboutComponent,
-                home_component_1.HomeComponent
+                home_component_1.HomeComponent,
+                experience_component_1.ExperienceComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
